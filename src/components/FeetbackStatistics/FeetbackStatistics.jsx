@@ -12,10 +12,7 @@ class FeetbackStatisticks extends Component {
     good: 0,
     neutral: 0,
     bad: 0
-  
-    }
-
-
+   }
 
     handleGoodBtn = () => {
         this.setState({
@@ -34,7 +31,9 @@ class FeetbackStatisticks extends Component {
     }
     
     countTotalFeedback = () => {
-        let total = this.state.good + this.state.neutral + this.state.bad;
+        const { good, neutral, bad } = this.state;
+
+        let total = good + neutral + bad;
         return total;
     }
     countPositiveFeedbackPercentage = () => {

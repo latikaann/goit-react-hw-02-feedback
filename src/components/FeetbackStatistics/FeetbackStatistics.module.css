@@ -1,5 +1,4 @@
 
-
 .feedbackBox{
     width: 450px;
     padding: 50px;
@@ -9,14 +8,7 @@
     box-shadow: 5px 5px 10px #808080;
     border-radius: 10px;
 }
-.statisticksTitle {
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 50px;
 
-    text-shadow: #FC0 1px 0 10px;
-}
 .buttonsList {
     display: flex;
     justify-content: space-evenly;
@@ -70,26 +62,4 @@ border: 1px solid transparent;
     background: rgb(211, 69, 69) linear-gradient(rgb(218, 38, 38), rgb(255, 255, 255));
     box-shadow: inset 0 -2px 1px rgba(0, 0, 0, 0), inset 0 1px 2px rgba(0, 0, 0, 0), inset 0 0 0 60px rgba(255, 255, 0, 0);
 
-}
-.statisticksBox {
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-.statisticksList {
-    font-weight: 500;
-    font-size: 25px;
-    margin-bottom: 30px;
-} 
-.statisticksItem {
-    display: flex;
-    gap: 10px;
-
-}
-
-.feedbackPercentage, .feedbackTotal {
-    font-weight: 600;
-    font-size: 25px;
-
-    
 }
